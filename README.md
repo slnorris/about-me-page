@@ -16,6 +16,6 @@ Shelby Norris - [GitHub Profile](https://github.com/slnorris)
 - [This](https://www.reddit.com/?rdt=55968) is one of my favorite sites. I visit it nearly every day.  
 - Profile Image (coming soon!)
 
-##Technologies Used
+## Technologies Used
 
 - HTML
