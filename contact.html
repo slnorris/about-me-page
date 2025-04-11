@@ -8,6 +8,7 @@
   </head>
   <body>
     <header>
+
       <nav class="nav">
         <ul>
         <li><a href="index.html">Home</a></li> |
@@ -15,25 +16,47 @@
         <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-    </header>
-    <h1 style=>Contact Me</h1>
-    <p style=>
-      Email: shelbs9109@gmail.com <br />
-      <br />
-      GitHub: <a href="https://github.com/slnorris">My GitHub</a>
-    </p>
-    <br />
-    <br />
-    <p>Feel free to leave a message!</p>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" /><br /><br />
 
+    </header>
+
+    <h1 style=>Contact Me</h1>
+
+    <div class="email">
+    <h2 class="contact">
+      Email:
+    </h2>
+      <h3 class="contactText">
+        shelbs9109@gmail.com
+      </h3>
+    </div>
+
+    <div class="github">
+    <h2 class="contact">
+      GitHub:
+    </h2>
+      <h3 class="contactText">
+        <a href="https://github.com/slnorris">My GitHub</a>
+      </h3>
+    </div>
+
+    <div class="form">
+    <h2 class="contact">
+      Feel free to leave a message!
+    </h2>
+
+    <form>
+      <div class="message">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="messageText">
       <label for="message">Message:</label><br />
       <textarea id="message" name="message"></textarea><br /><br />
-
+      </div>
       <button type="submit">Send</button>
     </form>
+    </div>
 
     <footer>©️March 2025 Codex Cohort</footer>
   </body>
